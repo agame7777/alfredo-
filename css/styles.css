@@ -3,7 +3,7 @@ Batc Web Essentials
 colors: #808080, #606061, #fff, #d4d4d4 
 Font: font-family: 'Raleway`, sans-serif;
 
-*/ 
+*/  
 
                                             /* ================================ General =============================== */
 
@@ -12,7 +12,7 @@ body {
     font-size: 16px; 
 }
  
-                                        /* ================================= GLOBAL ================================= */ 
+                                         /* ================================= GLOBAL ================================= */ 
 
 h1,h2,h3,h4,h5,h6 {
     -webkit-font-smoothing: antialiased;
@@ -271,3 +271,83 @@ footer ul li {
 footer ul li a:hover {
     color: white
 }
+                        /* ==================================================== about us ================================= */
+ .borders{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 20px 10px;
+     padding: 0px 10px;
+}
+.headers{
+    text-align: center;
+}
+.bio {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px;
+     padding: 0px 100px;
+}
+.profile-image {
+    margin-right: 20px;
+}
+                         /* ================================ blog ======================================*/
+.borders-blog {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+     margin: 20px 10px;
+     padding: 10px 10px 10px 10px; 
+     display: flex;
+    justify-content: flex-end;
+}
+
+.blog-content {
+    margin: 20px 10px;
+     padding: 0px 20px
+}
+                        /* ======================================== contact ==========================*/
+.contact-info {
+  text-align: center;
+  font-size: 22px;
+}
+
+.contact-description input {
+   width: 200px;
+    text-align: center;
+}
+
+.contact-description {
+    width: 500px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.contact-description p {
+    text-align: center;
+    margin: 5px 224px;
+}
+
+.contact-description textarea {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+.borders-contact {
+   border-top: 1px solid black;
+     margin: 20px 10px;
+     padding: 0px 10px;   
+}
+                        /* =============================================== FAQ =================================*/
+.borders-faq {
+    border-top: 1px solid black;
+     margin: 20px 10px;
+     padding: 0px 10px;
+}
+    
+    
