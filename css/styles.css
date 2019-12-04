@@ -1,4 +1,4 @@
-/*
+    /*
 Batc Web Essentials 
 colors: #808080, #606061, #fff, #d4d4d4 
 Font: font-family: 'Raleway`, sans-serif;
@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6 {
                                             /* =================================== HERO ===================================*/ 
 
 #hero {
-    background-image: url("../img/graveyard_small.jpg"); center no-repeat 
+    background-image: url("../img/graveyard_small.jpg");
     width: 100%;
     height: 780px;
     margin-top: -10px;
@@ -66,7 +66,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
     color: white;
-    padding: 100px; 0 0 0;
+    padding: 100px;
     text-align: center;
 }
 
@@ -111,7 +111,7 @@ h1 {
 
 .modalDialog {
     position: fixed;
-    font-family: `Raleway`, sans-serif;
+    font-family: "Raleway", sans-serif;
     top: 0;
     right: 0;
     bottom: 0;
@@ -130,7 +130,7 @@ h1 {
     pointer-events: auto;
 }
 
-.madalDialog > div {
+.modalDialog > div {
     width: 500px;
     position: relative;
     margin: 10% auto;
@@ -165,7 +165,7 @@ h1 {
 
 
 .login {
-    font-family: `Raleway`, sans-serif;
+    font-family: "Raleway", sans-serif;
     width: 500px;
     padding: 30px;
     background: #fff;
